@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    
+       /* consultar  con normalize*/
+}
+
+
+body{
+
+   font-family: 'League Spartan', sans-serif; 
+}
+
+.container {
+
+    
+    width: 1440px; 
+    height: auto;
+    padding: 8.75rem;
+    background-image: url("../assets/images/bg-pattern-bottom-desktop.svg");
+    background-size: contain;
+
+
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 27px;
+    margin-bottom: 45px;
+    
+
+}
+
+.txt {
+
+    width: 44%;
+    height: auto;
+    padding-right: 6.625rem;
+}
+
+.title {
+
+    color: hsl(300, 43%, 22%);
+    font-size: 2.8125rem;
+    padding-right: 0.625rem;
+}
+
+.description {
+
+    line-height: 1.5625rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.rate-card {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    width: 26.875rem;
+    height: 2.8125rem;
+    margin-bottom: 0.625rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    
+
+}
+
+.stars{
+    padding-right: 1.25rem;
+
+    
+}
+
+.rate-card-1{
+    position: relative;
+    left: 3.25rem;
+}
+
+.rate-card-2{
+    position: relative;
+    left: 7.125rem;
+}
+
+.rate-card-3{
+    position: relative;
+    left: 10.875rem;
+}
+
+
+
+/* ::opinion usuario:: */
+
+.testimonials-cards{
+
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+
+.test-card{
+
+    background-color: hsl(300, 43%, 22%);
+    width: 21.875rem;
+    height: 12.5rem;
+    border-radius: 4%;
+}
+
+.test-card-2{
+
+    position: relative;
+    top: 20px;
+}
+
+.test-card-3{
+
+    position: relative;
+    top: 40px;
+}
+
+.testimonial-card-content{
+
+    padding: 0.625rem 1.5625rem;
+}
+
+.test-card-header{
+
+    display: flex;
+    align-items: center;/* esto!!! */  
+    margin: 1.5625rem 0;
+   
+}
+
+.user-data{
+
+    display: block ;
+}
+
+.img-user{
+    border-radius: 50%;
+    width: 12%;   
+    height: auto;
+    margin-right: 0.625rem;
+}
+
+.user-description{
+
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.user-name{
+
+    color: white;
+}
+
+.user-job, .user-name{
+    margin: 0;
+} 
+
+.user-job{
+
+    color: hsla(333, 80%, 67%, 0.5);
+}
